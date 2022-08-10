@@ -17,7 +17,7 @@ MIDI_FILES_PKLs_DIR = "./pop909_midi_pkls"
 # the output training data 
 OUTPUT_DATA_PKL = "../data_pkl/train_seg2_512.pkl"
 
-all_mids = sorted(glob.glob(MIDI_FILES))
+all_midis = sorted(glob.glob(MIDI_FILES))
 
 for _midiFile in all_midis:
     # convert midi files to token representation and save as .pkl file
